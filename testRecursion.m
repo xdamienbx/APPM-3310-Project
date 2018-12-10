@@ -1,4 +1,4 @@
-[y , fs] = audioread("sqare220.wav");
+[y , fs] = audioread("440.wav");
 x1 = transpose(y);
 
 [x, t] = completeFourierTransform(x1, fs);
